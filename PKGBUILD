@@ -8,7 +8,6 @@ license=('GPL2')
 depends=('exiv2' 'graphicsmagick' 'qt5-imageformats' 'qt5-multimedia')
 makedepends=('cmake' 'qt5-tools')
 optdepends=('xcftools: for gimp xcf files support')
-install=$pkgname.install
 source=(http://photoqt.org/pkgs/$pkgname-$pkgver.tar.gz)
 sha512sums=('6f8e8caafa9edc4c7ec9892d763ad38251ecda964df6fef731ef2ba55c1f56b7b225ba74aebc09720dec2f9a5fa115978d301a5eb5153fa65895f9bd9685f79b')
 
