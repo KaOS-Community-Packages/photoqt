@@ -1,5 +1,5 @@
 pkgname=photoqt
-pkgver=1.3
+pkgver=1.4
 pkgrel=1
 pkgdesc="Fast and highly configurable image viewer with a simple and nice interface."
 arch=('x86_64')
@@ -10,7 +10,7 @@ makedepends=('cmake' 'qt5-tools')
 optdepends=('xcftools: for gimp xcf files support')
 install=$pkgname.install
 source=(http://photoqt.org/pkgs/$pkgname-$pkgver.tar.gz)
-sha512sums=('6fdc0c00449519304e0e0da09cabee6f096100ce8054213ca48f5093629328b5f2b6d45215edbbf5419e34189b456eac1389b561840077b3b8320461a1591762')
+sha512sums=('6f8e8caafa9edc4c7ec9892d763ad38251ecda964df6fef731ef2ba55c1f56b7b225ba74aebc09720dec2f9a5fa115978d301a5eb5153fa65895f9bd9685f79b')
 
 build() {
   cd $srcdir/$pkgname-$pkgver
